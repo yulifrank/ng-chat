@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Screenshots
 
-![Chat Room](./path-to-your-image.png)
+![Chat Room](./main/src/assets/p1.png)
 *Example of the chat room interface.*
 
 ## How to Contribute
