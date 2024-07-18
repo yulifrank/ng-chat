@@ -2,7 +2,7 @@
 export const environment = {
     production: false,
     firebase: {
-        apiKey: "AIzaSyDt-mc3pFzKV4s3aPQbRGZJwhoQCbKb59s",
+        apiKey: "add-your-key",
         authDomain: "ng-chat-442bd.firebaseapp.com",
         projectId: "ng-chat-442bd",
         storageBucket: "ng-chat-442bd.appspot.com",
