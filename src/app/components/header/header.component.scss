@@ -1,0 +1,56 @@
+.header-toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 16px;
+  color: white;
+  background: linear-gradient(to left, #0000cc 0%, #ff0066 100%);
+  height: 64px;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mat-button {
+  font-size: 1rem;
+  color: white;
+  background-color: #0a027b3f;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mat-button:hover {
+  background-color: #115293;
+}
+
+#login #chat {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #00000077;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login:hover {
+  background-color: #33333377;
+}
+
+.mat-icon-button {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+#sign {
+  width: auto;
+  color: white;
+  background-color: transparent;
+}

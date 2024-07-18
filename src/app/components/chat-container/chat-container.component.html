@@ -1,0 +1,6 @@
+<div class="chat-container-wrapper">
+  <button class="addroom" mat-button (click)="openAddRoom()">Add Room</button>
+  <app-room-list [rooms]="rooms"></app-room-list>
+  <app-chat [messages]="messages$ | async" [userId]="userId" [roomId]="currentRoomId"
+           (messageAdded)="handleNewMessage($event)"></app-chat>
+</div>

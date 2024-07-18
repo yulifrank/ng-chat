@@ -1,0 +1,24 @@
+<div class="chat-container" #chatContainer>
+  <ul class="message-list" #messageList>
+    <li *ngFor="let message of sortedMessages" 
+        class="message-item" 
+        [ngClass]="{'my-message': message.userId === userId, 'other-message': message.userId !== userId}">
+      <span class="user-id">
+        {{ message.userId === userId ? 'את/ה' : (message.userId | userName | async) }}
+      </span>
+      <span class="message-timestamp">{{ getTimeSince(message.timestamp) }}</span>
+      <div class="message-bubble">
+        <p>{{ message.body }}</p>
+      </div>
+    </li>
+  </ul>
+  <div class="message-input-container">
+    <input [(ngModel)]="newMessage" 
+           placeholder="Type your message here..." 
+           class="message-input"
+           (keydown.enter)="sendMessageOnEnter($event)"/>
+    <button (click)="sendMessage()" class="send-button">
+      <i class="fa fa-paper-plane"></i> Send
+    </button>
+  </div>
+</div>

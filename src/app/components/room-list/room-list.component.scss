@@ -1,0 +1,42 @@
+.room-list {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 90px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+  }
+  
+  .room-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .room-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+  }
+  
+  .room-list li:hover {
+    background-color: #ffffff;
+  }
+  .rooms{
+    position: fixed;
+    left: 76%;
+    top: 15%;
+    width: 20%;
+    height:80%;
+    background-color: #ffffff61;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+  

@@ -1,0 +1,26 @@
+<mat-toolbar class="header-toolbar">
+  <span class="app-title">My App</span>
+  <span class="spacer"></span>
+
+  <ng-container *ngIf="(isUserLoggedIn$ | async); else loggedOut">
+    <!-- כפתור לוגאוט -->
+    <button  class="mat-button"  mat-button id="login" (click)="signOut()">
+      <mat-icon>exit_to_app</mat-icon>
+      <span>Logout</span>
+    </button>
+    <button class="mat-button"    mat-button id="chat"  [routerLink]="['/chat']" >
+      <span>chat</span>
+      <mat-icon>chat</mat-icon>
+    </button>
+
+  </ng-container>
+
+  <ng-template #loggedOut>
+    <!-- כפתור לוגין -->
+    <button class="mat-button"  mat-button id="login" (click)="signInWithGoogle()">
+      <mat-icon>login</mat-icon>
+      <mat-icon>google</mat-icon>
+      <span>Login</span>
+    </button>
+  </ng-template>
+</mat-toolbar>

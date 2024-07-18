@@ -1,0 +1,45 @@
+/* רקע לכל הדף */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/317717-P94VDW-609.png'); /* כאן יש לשים את הקישור לתמונת הרקע שלך */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+  }
+  
+//   /* עיצוב מיכל הצ'אט והכפתור */
+//   .chat-container-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 20px;
+//     height: 100%;
+//     box-sizing: border-box;
+//   }
+  
+//   .addroom {
+//     align-self: flex-end;
+//     margin-bottom: 20px;
+//     background-color: #007bff;
+//     color: white;
+//     border: none;
+//     border-radius: 5px;
+//     padding: 10px 15px;
+//     cursor: pointer;
+//     font-size: 14px;
+//   }
+  
+//   .addroom:hover {
+//     background-color: #0056b3; /* צבע כהה יותר לכפתור בהובר */
+//   }
+  
+//   .app-room-list, .app-chat {
+//     width: 100%;
+//     max-width: 600px;
+//     margin-bottom: 20px;
+//   }
+  
