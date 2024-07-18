@@ -1,5 +1,11 @@
 # NgChat
 
+![Chat Room](./src/assets/p2.png)
+
+![Chat Room](./src/assets/p3.png)
+
+![Chat Room](./src/assets/p4.png)
+
 This project is a feature-rich chat application built with Angular. It includes Google authentication, the ability to create new chat rooms, real-time messaging, and integration with Firebase for database management.
 
 ## Features
