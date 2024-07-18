@@ -60,7 +60,7 @@ If you want to contribute to this project, feel free to open an issue or submit 
 
 ## Community and Support
 
-Join our community on [Discord](https://discord.gg/your-link) or follow us on [Twitter](https://twitter.com/your-link) for the latest updates. If you encounter any issues, please reach out via our [support page](https://support.your-link.com).
+
 
 ## License
 
